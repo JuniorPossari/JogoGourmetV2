@@ -37,16 +37,16 @@
 			// LblPergunta
 			// 
 			LblPergunta.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-			LblPergunta.Location = new Point(0, 9);
+			LblPergunta.Location = new Point(0, 23);
 			LblPergunta.Name = "LblPergunta";
-			LblPergunta.Size = new Size(386, 21);
+			LblPergunta.Size = new Size(595, 21);
 			LblPergunta.TabIndex = 0;
 			LblPergunta.Text = "Pergunta";
 			LblPergunta.TextAlign = ContentAlignment.MiddleCenter;
 			// 
 			// BtnSalvar
 			// 
-			BtnSalvar.Location = new Point(95, 90);
+			BtnSalvar.Location = new Point(158, 107);
 			BtnSalvar.Name = "BtnSalvar";
 			BtnSalvar.Size = new Size(75, 23);
 			BtnSalvar.TabIndex = 1;
@@ -56,7 +56,7 @@
 			// 
 			// BtnCancelar
 			// 
-			BtnCancelar.Location = new Point(218, 90);
+			BtnCancelar.Location = new Point(374, 107);
 			BtnCancelar.Name = "BtnCancelar";
 			BtnCancelar.Size = new Size(75, 23);
 			BtnCancelar.TabIndex = 2;
@@ -66,21 +66,22 @@
 			// 
 			// TxtPrato
 			// 
-			TxtPrato.Location = new Point(95, 46);
+			TxtPrato.Location = new Point(158, 63);
 			TxtPrato.MaxLength = 20;
 			TxtPrato.Name = "TxtPrato";
-			TxtPrato.Size = new Size(198, 23);
+			TxtPrato.Size = new Size(291, 23);
 			TxtPrato.TabIndex = 3;
 			// 
 			// InputPratoForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(386, 125);
+			ClientSize = new Size(596, 159);
 			Controls.Add(TxtPrato);
 			Controls.Add(BtnCancelar);
 			Controls.Add(BtnSalvar);
 			Controls.Add(LblPergunta);
+			FormBorderStyle = FormBorderStyle.FixedSingle;
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "InputPratoForm";

@@ -60,6 +60,7 @@
 			ClientSize = new Size(290, 125);
 			Controls.Add(BtnJogar);
 			Controls.Add(label1);
+			FormBorderStyle = FormBorderStyle.FixedSingle;
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "MainForm";

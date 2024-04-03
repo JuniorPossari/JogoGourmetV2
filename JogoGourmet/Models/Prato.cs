@@ -10,8 +10,8 @@
 			Categoria = categoria;
 		}
 
-		public string Nome { get; private set; }
-		public string Categoria { get; private set; }
+		public string Nome { get; private set; } = "";
+		public string Categoria { get; private set; } = "";
 
 		public void SetNome(string nome)
 		{
